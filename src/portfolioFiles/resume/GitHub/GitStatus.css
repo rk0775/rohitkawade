@@ -1,0 +1,43 @@
+.git-container{
+    width:750px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-header{
+    width:100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1110px) {
+    .git-container{
+    width:500px;
+        
+    }
+    .git-chart{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1310px) {
+    .git-container{
+        width:100%;   
+    }
+}
+
+@media screen and (max-width:810px) {
+    
+}
+
+@media screen and (width:768px) {
+    .git-container{
+        width:450px;
+    }
+    
+}

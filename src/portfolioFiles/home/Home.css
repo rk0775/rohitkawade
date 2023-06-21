@@ -1,0 +1,7 @@
+.home-cotainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 570px;
+    background-color: rgb(47, 46, 46);
+}

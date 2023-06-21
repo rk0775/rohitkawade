@@ -1,0 +1,27 @@
+.common-parrent{
+    width:100%;
+    margin: 55px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.common-parrent h3{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.common-parrent h6{
+    color: gray;
+    font-family: "Poppins Light";
+    letter-spacing: 1px;
+}
+
+.divider{
+    width: 200px;
+    height: 2px;
+    background-color: var(--dark-orange);
+    margin:5px 0px;
+}

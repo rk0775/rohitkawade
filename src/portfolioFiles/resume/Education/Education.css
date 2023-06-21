@@ -1,0 +1,54 @@
+.college-info{
+    width:750px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.college-name{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange-text{
+    margin-top: 35px;
+    color:var(--dark-orange);
+}
+
+
+
+
+
+@media screen and (max-width:1110px) {
+    .college-info{
+        width:500px;
+        
+    }
+}
+@media screen and (min-width:1310px) {
+    .college-info{
+        width:100%;   
+    }
+}
+
+
+@media screen and (max-width:810px) {
+    .college-info{
+        width:100%;   
+    }
+
+    .orange-text{
+        margin-top: 5px;
+        color:var(--dark-orange);
+    }
+}
+
+@media screen and (width:768px) {
+    .college-info{
+        width:450px;
+        
+    }
+    
+}

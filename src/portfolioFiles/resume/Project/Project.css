@@ -1,0 +1,58 @@
+.project-container{
+    width:750px;
+    padding: 5px 10px;
+}
+
+.project-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.fa-star{
+    color: var(--dark-orange);
+}
+.project-title{
+    color:var(--orange);
+    font-size: 15px;
+}
+.git-icon{
+    font-size: 25px;
+}
+.project-dis{
+    color:gray;
+    font-size: 12px;
+    font-family: "poppins Light";
+
+}
+
+
+@media screen and (max-width:1110px) {
+    .project-container{
+        width:500px;   
+    }
+}
+
+@media screen and (min-width:1310px) {
+    .project-container{
+        width:100%;   
+    }
+}
+
+
+@media screen and (max-width:810px) {
+    .project-container{
+        width:100%;
+    }
+}
+
+@media screen and (width:768px) {
+    .project-container{
+        width:450px;   
+    }
+    .project-head{
+        margin-top: 1px;
+    }
+    
+}
